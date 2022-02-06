@@ -15,11 +15,7 @@ public class Program39 {
 			factorial *= number;
 		}
 		
-		System.out.println("The factorial value of "+factNum+" is "+factorial+".");
-			
-	    
-		
-
+		System.out.printf("The factorial value of %d is %d .",factNum,factorial);
 	}
 
 }
